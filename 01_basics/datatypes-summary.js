@@ -45,4 +45,33 @@ console.log(heros);
  
  
  
+ // ******************************  memory************************//
+
+
+ // stack memory and heap memory 
+
+ //stack => primitive
+ //heap => non primitive
+
+
+ // stack memory
+
+ let myYoutubename="namanjain.com"
+ let anothername = myYoutubename
+ anothername = "jain.com"
+ console.log(anothername);
+ console.log(myYoutubename);
+
+
+ // heap memory 
+ 
+ let userOne= {
+   email: " user@google.com",
+   upi: "naman@kotak"
+   }
+  
+   let userTwo = userOne
+   userTwo.email="hiteshgoogle.com"
+   console.log(userOne.email);
+   console.log(userTwo.email);  
  
