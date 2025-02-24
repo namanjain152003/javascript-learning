@@ -19,7 +19,28 @@ myArr.unshift(9) // it add the element at starting of the array
 myArr.shift()    // it removes the first element of the array
 
 
-console.log(myArr.includes(3));
+//console.log(myArr.includes(3));
+//console.log(myArr.indexOf(3));
 
+const newArr = myArr.join() // it changes the array can covert into string 
 console.log(myArr);
+console.log(newArr);
 
+
+//slice , splice
+console.log("A", myArr)
+const myn1 = myArr.slice(1,3)
+console.log(myn1);
+ // in slice last value in not included
+ // slice does not effect/manipulate the original array
+
+ console.log("B" , myArr);
+ const myn2 =myArr.splice(1,3)
+ console.log(myn2);
+// in splice last value is included
+// splice effect/manipulate the original array 
+
+console.log("C", myArr);
+
+ 
+ 
