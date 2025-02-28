@@ -41,3 +41,34 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn')); //helps to wheather the required entry is present in object or not
+
+
+//OBJECT DESTRUCTURING
+
+
+const course ={
+    coursename:"js in hindi",
+    price:"999",
+    courseInstructor:"naman"
+}
+//course.courseInstructor
+
+const{courseInstructor : instructor }= course // method to use object elements and we can use another name for obejct element as well 
+console.log(instructor);
+
+//this part is example of react
+/*
+const navbar=({comapny})=> {
+
+}
+navbar(company="naman")
+*/
+
+//now api comes in json format
+//{
+// "name":"hitesh",
+// "coursename":"js in hindi",
+// "price":"free "
+// }
+
+//sometimes api can get in form of array as well
