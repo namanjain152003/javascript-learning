@@ -46,4 +46,4 @@ console.log(addTwo(3,4));*/
 
 //this is how object return 
 const addTwo =(num1,num2)=>({username:"hitesh"})
-console.log(addTwo(3,4));
+console.log(addTwo(3,4)); 
